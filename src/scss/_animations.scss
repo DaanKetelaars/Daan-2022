@@ -1,0 +1,14 @@
+// Simple CSS animations
+.reveal {
+  transform: translateY(100%);
+  animation: reveal 1.7s cubic-bezier(1, 0, 0.3, 0.9) forwards;
+}
+
+@keyframes reveal {
+  from {
+    transform: translateY(400%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
